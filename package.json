@@ -1,0 +1,33 @@
+{
+  "name": "teachaid",
+  "version": "0.1.0",
+  "description": "Project for GDG. AI-powered teacher assistant for automated grading process of assignments. It evaluate the submissions on various parameters, track the improvements and provide personalized feedbacks for each student. Designed to ease educators' workload while enhancing student learning.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kola0D246/SupermanGDG.git"
+  },
+  "keywords": [
+    "teachaid",
+    "gdg"
+  ],
+  "author": "team-superman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kola0D246/SupermanGDG/issues"
+  },
+  "homepage": "https://github.com/Kola0D246/SupermanGDG#readme",
+  "devDependencies": {
+    "electron": "^34.2.0"
+  },
+  "dependencies": {
+    "mammoth": "^1.9.0",
+    "pdf-parse": "^1.1.1",
+    "pptxgenjs": "^3.12.0",
+    "tesseract.js": "^6.0.0"
+  }
+}

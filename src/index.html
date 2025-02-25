@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teachaid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Teacher Assistant</h1>
+        
+        <div class="assignment-section">
+            <input type="file" id="assignmentFile" accept=".pdf,.docx,.pptx">
+            <button onclick="processFile()">Submit Assignment</button>
+            <textarea id="assignmentInput" placeholder="Paste student assignment here..."></textarea>
+            <button onclick="gradeAssignment()">Grade Assignment</button>
+        </div>
+
+        <div class="results-section">
+            <h2>Results</h2>
+            <div id="gradeOutput"></div>
+            <div id="feedbackOutput"></div>
+            <div id="originalityOutput"></div>
+            <div id="progressChart"></div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
