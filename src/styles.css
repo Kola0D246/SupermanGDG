@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  #content-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+  }
+  
+  #assignments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .assignment-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignment-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .assignment-dates {
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
+  .submission-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .submission-btn:hover {
+    background-color: #45a049;
+  }
+  
+  #subject-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 15px 0;
+  }
+  
+  .subject-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .subject-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .subject-btn.active {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
+  }
